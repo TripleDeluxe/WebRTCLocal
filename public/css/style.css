@@ -1,0 +1,12 @@
+﻿video {
+    background-color: #ddd;
+    border-radius: 7px;
+    margin: 10px 0px 0px 10px;
+    width: 320px;
+    height: auto;
+}
+
+button {
+    margin: 5px 0px 0px 10px !important;
+    width: 654px;
+}

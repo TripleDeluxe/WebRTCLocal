@@ -1,0 +1,18 @@
+﻿doctype html
+html
+    head
+        meta(name="charset" content="utf-8")
+        title WebRTC Local
+        meta(name="author" content="Thomas Guérin")
+        block scripts
+            script(src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js")
+            script(src="https://webrtc.github.io/adapter/adapter-latest.js" type="module")
+        style
+            include ../public/css/style.css
+    body
+        button(type="button" onclick="call()") CLIQUE
+        br
+        video(id="myVideo" autoplay muted )
+        video(id="otherVideo" autoplay)
+        script(src="/js/index.js")
+    

@@ -1,0 +1,15 @@
+{
+  "name": "web-rtclocal",
+  "version": "0.0.0",
+  "description": "WebRTCLocal",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "express": "^4.17.0",
+    "pug": "^2.0.3",
+    "socket.io": "^2.2.0",
+    "websocket": "^1.0.28"
+  }
+}
